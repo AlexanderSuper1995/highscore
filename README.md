@@ -2,22 +2,23 @@
 
 I detta obligatoriska projektarbetet visar du att du besitter kunskap inom koncept som tagits
 upp under kursen.
-Inlämning
+# Inlämning
 När du är klar med uppgiften och verifierat att samtliga kriterier för Godkänd (G)
 alternativt Väl Godkänd (VG) är uppfyllda, skapa en Zip- eller RAR-fil innehållandes
 samtliga projektfiler och ladda upp denna till Ping Pong (Examinering > Projektarbete).
 Därefter sätter du upp dig för redovisning.
 Inlämning sker senast fredag 3/6 kl 8:30. Missar du inlämningstiden kontaktar du
-utbildningsledaren.
-Betygsättning
+utbildningsledaren.<br>
+Betygsättning 
 Du kan erhålla betyg Godkänd (G) samt Väl Godkänd (VG) på projektarbetet.
 Instruktioner
 Du har möjlighet att välja ett fördefinierat projekt, alternativt ta fram ett eget. Instruktioner för
 vardera alternativ hittar du nedan.
 Fördefinierat projekt
-Godkänd (G)
+# Godkänd (G)
 För att erhålla betygsnivå Godkänd (G) krävs följande:
 ● Ska finnas webb-API med följande endpoints:
+[] inte klar 
 ○ Hämta samtliga spel (GET /api/games)
 ■ Returnerar "200 OK" samt lista med spel (samtliga attribut).
 ■ Finns inga spel returneras tom array.
@@ -60,7 +61,7 @@ t.ex. poäng saknas.
 ○ Förklara varför det kan vara nödvändigt att versionera API
 ○ Ge exempel på hur man kan versionera API
 ● Ge exempel på ett par säkerhetshot relaterade till webbapplikationer
-Väl Godkänd (VG)
+# Väl Godkänd (VG)
 För att erhålla betygsnivå Väl Godkänd (VG) krävs följande:
 ● Uppnått kriterier för betyg Godkänd (G) (se ovan).
 ● Följande webb API ska exponeras av backend:
@@ -77,7 +78,7 @@ För att erhålla betygsnivå Väl Godkänd (VG) krävs följande:
 ○ Registrera highscore (POST /api/scores)
 ● Samtliga endpoints har tester
 ● Lämna in rapport
-Eget projekt
+# Eget projekt
 Du har även möjlighet att ta fram eget projekt. I detta fall behöver projektet inkludera
 momenten som listas ovan, för eftersträvad betygsnivå. Boka tid med läraren senast tis
 17/5 för att presentera din projektidé.

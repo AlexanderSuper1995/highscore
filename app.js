@@ -26,7 +26,17 @@ app.use('/users', usersRouter);
 app.use(function(req, res, next) {
   next(createError(404));
 });
-
+// rest api här 
+app.get('/api/games', function(req, res, next) {
+  res.send("Hello, World!");
+});
+app.delete('/', function(req, res, next) {
+  const DataId = req.params.id;
+  res.send(`Delete data ${DataId}`);
+});
+app.post('/', function(req, res, next) {
+  
+});
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
