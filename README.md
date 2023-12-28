@@ -17,7 +17,7 @@ Fördefinierat projekt
 # Godkänd (G)
 För att erhålla betygsnivå Godkänd (G) krävs följande:
  Ska finnas webb-API med följande endpoints:
- 1. [] Hämta samtliga spel (GET /api/games)
+ 1. [x] Hämta samtliga spel (GET /api/games)
  2. [] Returnerar "200 OK" samt lista med spel (samtliga attribut).
  3. [] Finns inga spel returneras tom array. 
  # Söka efter spel (GET /api/games?title={title})
