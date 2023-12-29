@@ -6,7 +6,6 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
 var app = express();
 
 // view engine setup
@@ -26,8 +25,20 @@ app.use('/users', usersRouter);
 app.use(function(req, res, next) {
   next(createError(404));
 });
-// rest api här 
+// database 
+ console.count(app); 
+// rest api  
 app.get('/api/games', function(req, res, next) {
+ 
+
+  res.send("Hello, World!");
+});
+app.get('/test', function( res) {
+ 
+  app.get('/users/:id', (req, res) => {
+    const userId = req.params.id;
+    res.send(`Details of user ${userId}`);
+  });
   res.send("Hello, World!");
 });
 app.delete('/', function(req, res, next) {
@@ -47,5 +58,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
+console.debug(app)
+ 
 module.exports = app;
