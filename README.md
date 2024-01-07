@@ -57,3 +57,15 @@ Beskriv hur versionering av API fungerar
 Förklara varför det kan vara nödvändigt att versionera API
  Ge exempel på hur man kan versionera API
  Ge exempel på ett par säkerhetshot relaterade till webbapplikationer
+
+
+
+
+# Express ska användas.
+# Datalagring
+# PostgreSQL ska användas.
+# ORM får INTE användas.
+# I det fall det finns relationer mellan tabeller, ska foreign key användas.
+# Samtliga tabeller ska ha primärnyckel.
+# Filen .\data\highscore.sql ska finnas och innehålla all nödvändig DDL för att
+# sätta upp tabeller applikationen använder
